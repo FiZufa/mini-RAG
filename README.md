@@ -56,6 +56,43 @@ This project aims to simulate a **mini RAG system** that:
 - Results include total time and model used.
 - Final performance metrics saved to `outputs/task3_rag_performance_gpt2.json` and `outputs/task3_rag_performance_gpt4.json`.
 
+## 📊 Benchmark Results Summary
+
+### 💬 Example: Multi-turn QA with GPT-4 (RAG)
+
+This example demonstrates how our RAG system uses retrieved context from YouTube transcripts and combines it with GPT-4 to answer a sequence of related questions.
+
+#### 1. **Q: Why do people feel lonely?**
+
+- ⏱ Retrieval Time: `0.0807 sec`, Generation Time: `2.8176 sec`
+- 🧠 **Answer**:
+  > People feel lonely when they lack meaningful social interactions or connections. It may also occur when they feel unwanted, unloved, or not respected by others. This can be due to various reasons such as not being able to connect with people on a deeper level, or not being able to find people whose ideas or beliefs align with theirs.
+
+- 📚 **Top Retrieved Chunk Snippet**:
+  > “...alone sometimes actually finding oddly enough kind pleasurable... loneliness loses lot staining thing force develop social muscle...”
+
+---
+
+#### 2. **Q: How can someone improve their social skills?**
+
+- ⏱ Retrieval Time: `0.0639 sec`, Generation Time: `3.7998 sec`
+- 🧠 **Answer**:
+  > Someone can improve their social skills by first recognizing the importance of these skills in daily life. They should practice more often by interacting with various people in different settings... understanding how to work well with others are crucial aspects of improving social skills.
+
+- 📚 **Top Retrieved Chunk Snippet**:
+  > “...95% life involves interactions with people... think of social skills like playing piano or shooting free throws—something you can practice and improve.”
+
+---
+
+#### 3. **Q: What is the most important skill for personal growth?**
+
+- ⏱ Retrieval Time: `0.1548 sec`, Generation Time: `1.1904 sec`
+- 🧠 **Answer**:
+  > The most important skill for personal growth is social skills, such as getting along with people, cooperating, and knowing how to work with others.
+
+- 📚 **Top Retrieved Chunk Snippet**:
+  > “...social skills—getting along with people, cooperating, knowing how to work with people—isn’t just innate. It’s something you can and should develop.”
+
 ---
 
 ## 📊 Features
