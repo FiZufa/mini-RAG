@@ -16,7 +16,7 @@ This project aims to simulate a **mini RAG system** that:
 
 ### 1. 📂 Data Preparation (Task 1)
 
-- All `.txt` files in the `datasets/` folder are treated as raw YouTube transcript data from this (YouTube channel)[https://www.youtube.com/@RobertGreeneOfficial/videos] and generated using this (YouTube video online generator)[https://www.youtranscripts.com/]. 
+- All `.txt` files in the `datasets/` folder are treated as raw YouTube transcript data from this [YouTube channel](https://www.youtube.com/@RobertGreeneOfficial/videos) and generated using this [YouTube video online generator](https://www.youtranscripts.com/). 
 - Each file undergoes:
   - **Cleaning**: Lowercasing, punctuation removal, and stopword filtering using NLTK.
   - **Tokenization**: Word tokenization followed by windowed chunking.
