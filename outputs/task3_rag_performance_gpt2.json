@@ -1,0 +1,74 @@
+[
+  {
+    "query": "Why do people feel lonely?",
+    "retrieval_time_sec": 0.1247,
+    "generation_time_sec": 12.3105,
+    "total_time_sec": 12.4351,
+    "retrieved_chunks": [
+      {
+        "chunk_index": 12,
+        "text": "alone sometimes actually finding oddly enough kind pleasurable annoying noises annoying people narcissism crap deal yeah like alone sometimes like sitting bathtub reading book like watching movie etc find pleasure alone loneliness loses lot staining thing force develop social muscle",
+        "score": 0.6131223440170288
+      },
+      {
+        "chunk_index": 2,
+        "text": "alone one thing state loneliness feels like slightly different proposition well difference feel unhappy youre youre connecting people social animal right mh feel like people dont like dont respect cant interact level thats meaningful whereas feeling alone wow dont around ugly idiotic people read good book dont interact people whose ideas dont like weird want wow relief im happy alone im like time would terri terrible sometimes feel way thats difference thats good thing remember",
+        "score": 0.6122967004776001
+      },
+      {
+        "chunk_index": 13,
+        "text": "watching movie etc find pleasure alone loneliness loses lot staining thing force develop social muscle",
+        "score": 0.5841678380966187
+      }
+    ],
+    "generated_answer": "because they feel lonely.\n\nQuestion: What is the difference between loneliness and loneliness?\n\nAnswer: loneliness is a feeling of loneliness.\n\nQuestion: What is the difference between loneliness and loneliness?\n\nAnswer: loneliness is a feeling of loneliness.\n\nQuestion: What is the difference between loneliness and loneliness?\n\nAnswer: loneliness is a feeling of loneliness.\n\nQuestion: What is the difference between loneliness and loneliness?\n\nAnswer: loneliness is a feeling of loneliness"
+  },
+  {
+    "query": "How can someone improve their social skills?",
+    "retrieval_time_sec": 0.1078,
+    "generation_time_sec": 15.9955,
+    "total_time_sec": 16.1033,
+    "retrieved_chunks": [
+      {
+        "chunk_index": 0,
+        "text": "main thing developing skill though simple theres one step immediately improve ability level desire improve social skills first realize importance social skills 95 life involves interactions people tremendous impact emotions wellbeing health right thing dont think world social interacting people skill unfortunately think even bring question youre probably taking seriously think im naturally something dont practice dont learn anything go world interact best like skill like learning piano playing chess shooting free throws something like",
+        "score": 0.6532434225082397
+      },
+      {
+        "chunk_index": 7,
+        "text": "spending time people got get phone got get office got get virtuality around people interact thats way become social find know alone lot found difficult force force go clubs go bars hang people developing social skills incredibly important thing right another skill thats extremely important probably important develop love learning know personally theres something dont know theres something im good take effort like learn get better im going make say specifics could sports could playing",
+        "score": 0.5794171690940857
+      },
+      {
+        "chunk_index": 4,
+        "text": "skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able supply youre able enter spirit dont offend unnecessarily know work right know properly criticize thats necessary dont understand social skill dont develop could greatest whatever could could even greatest athlete world youre going offending teammates offending people work knowledge skills going completely neutralized bad dealing people look social skill means",
+        "score": 0.5734717845916748
+      }
+    ],
+    "generated_answer": "1. Improve your social skills.\n\n2. Improve your social skills.\n\n3. Improve your social skills.\n\n4. Improve your social skills.\n\n5. Improve your social skills.\n\n6. Improve your social skills.\n\n7. Improve your social skills.\n\n8. Improve your social skills.\n\n9. Improve your social skills.\n\n10. Improve your social skills.\n\n11. Improve your social skills."
+  },
+  {
+    "query": "What is the most important skill for personal growth?",
+    "retrieval_time_sec": 0.3334,
+    "generation_time_sec": 14.971,
+    "total_time_sec": 15.3045,
+    "retrieved_chunks": [
+      {
+        "chunk_index": 2,
+        "text": "skills im going talk like coding know mastering ai going business strategy think thats really spirit question general certain kind personal skills want develop okay number one something book mastery must see social getting along people cooperating knowing work people skill something born something people good bad bad like anything skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able",
+        "score": 0.6382884979248047
+      },
+      {
+        "chunk_index": 1,
+        "text": "world knowledge skills important thing thats goal money want develop knowledge skills person asks would three skills essential moving forward 21st century know like specific skills im going talk like coding know mastering ai going business strategy think thats really spirit question general certain kind personal skills want develop okay number one something book mastery must see social getting along people cooperating knowing work people skill something born something people good bad bad like anything",
+        "score": 0.6296076774597168
+      },
+      {
+        "chunk_index": 26,
+        "text": "hurry get goals want important elements dealing boredom dealing anxiety impatience interrelated theyre ability slow things deal micro aspects kind learning process skills think absolutely essential going forward 21st century want endgame love learning youve patient youve developed skills youre good people reach point mastered couple things right like want go life master one thing want master two least two kind real skills world writing research others able combine writing research led 48 laws power",
+        "score": 0.5984463691711426
+      }
+    ],
+    "generated_answer": "1. Learn to read and write.\n\n2. Learn to read and write.\n\n3. Learn to read and write.\n\n4. Learn to read and write.\n\n5. Learn to read and write.\n\n6. Learn to read and write.\n\n7. Learn to read and write.\n\n8. Learn to read and write.\n\n9. Learn to read and write.\n\n10. Learn to read and write."
+  }
+]

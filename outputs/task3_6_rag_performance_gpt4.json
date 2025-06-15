@@ -1,0 +1,74 @@
+[
+  {
+    "query": "Why do people feel lonely?",
+    "retrieval_time_sec": 0.0807,
+    "generation_time_sec": 2.8176,
+    "total_time_sec": 2.8982,
+    "retrieved_chunks": [
+      {
+        "chunk_index": 12,
+        "text": "alone sometimes actually finding oddly enough kind pleasurable annoying noises annoying people narcissism crap deal yeah like alone sometimes like sitting bathtub reading book like watching movie etc find pleasure alone loneliness loses lot staining thing force develop social muscle",
+        "score": 0.6131223440170288
+      },
+      {
+        "chunk_index": 2,
+        "text": "alone one thing state loneliness feels like slightly different proposition well difference feel unhappy youre youre connecting people social animal right mh feel like people dont like dont respect cant interact level thats meaningful whereas feeling alone wow dont around ugly idiotic people read good book dont interact people whose ideas dont like weird want wow relief im happy alone im like time would terri terrible sometimes feel way thats difference thats good thing remember",
+        "score": 0.6122967004776001
+      },
+      {
+        "chunk_index": 13,
+        "text": "watching movie etc find pleasure alone loneliness loses lot staining thing force develop social muscle",
+        "score": 0.5841678380966187
+      }
+    ],
+    "generated_answer": "People feel lonely when they lack meaningful social interactions or connections. It may also occur when they feel unwanted, unloved or not respected by others. This can be due to various reasons such as not being able to connect with people on a deeper level, or not being able to find people whose ideas or beliefs align with theirs."
+  },
+  {
+    "query": "How can someone improve their social skills?",
+    "retrieval_time_sec": 0.0639,
+    "generation_time_sec": 3.7998,
+    "total_time_sec": 3.8637,
+    "retrieved_chunks": [
+      {
+        "chunk_index": 0,
+        "text": "main thing developing skill though simple theres one step immediately improve ability level desire improve social skills first realize importance social skills 95 life involves interactions people tremendous impact emotions wellbeing health right thing dont think world social interacting people skill unfortunately think even bring question youre probably taking seriously think im naturally something dont practice dont learn anything go world interact best like skill like learning piano playing chess shooting free throws something like",
+        "score": 0.6532434225082397
+      },
+      {
+        "chunk_index": 7,
+        "text": "spending time people got get phone got get office got get virtuality around people interact thats way become social find know alone lot found difficult force force go clubs go bars hang people developing social skills incredibly important thing right another skill thats extremely important probably important develop love learning know personally theres something dont know theres something im good take effort like learn get better im going make say specifics could sports could playing",
+        "score": 0.5794171690940857
+      },
+      {
+        "chunk_index": 4,
+        "text": "skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able supply youre able enter spirit dont offend unnecessarily know work right know properly criticize thats necessary dont understand social skill dont develop could greatest whatever could could even greatest athlete world youre going offending teammates offending people work knowledge skills going completely neutralized bad dealing people look social skill means",
+        "score": 0.5734717845916748
+      }
+    ],
+    "generated_answer": "Someone can improve their social skills by first recognizing the importance of these skills in daily life. They should practice more often by interacting with various people in different settings. They can try going out more and pushing themselves to engage with others, even if they find it difficult. Developing sensitivity to others' emotions and needs, learning how to properly give criticism without offending, and understanding how to work well with others are crucial aspects of improving social skills."
+  },
+  {
+    "query": "What is the most important skill for personal growth?",
+    "retrieval_time_sec": 0.1548,
+    "generation_time_sec": 1.1904,
+    "total_time_sec": 1.3452,
+    "retrieved_chunks": [
+      {
+        "chunk_index": 2,
+        "text": "skills im going talk like coding know mastering ai going business strategy think thats really spirit question general certain kind personal skills want develop okay number one something book mastery must see social getting along people cooperating knowing work people skill something born something people good bad bad like anything skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able",
+        "score": 0.6382884979248047
+      },
+      {
+        "chunk_index": 1,
+        "text": "world knowledge skills important thing thats goal money want develop knowledge skills person asks would three skills essential moving forward 21st century know like specific skills im going talk like coding know mastering ai going business strategy think thats really spirit question general certain kind personal skills want develop okay number one something book mastery must see social getting along people cooperating knowing work people skill something born something people good bad bad like anything",
+        "score": 0.6296076774597168
+      },
+      {
+        "chunk_index": 26,
+        "text": "hurry get goals want important elements dealing boredom dealing anxiety impatience interrelated theyre ability slow things deal micro aspects kind learning process skills think absolutely essential going forward 21st century want endgame love learning youve patient youve developed skills youre good people reach point mastered couple things right like want go life master one thing want master two least two kind real skills world writing research others able combine writing research led 48 laws power",
+        "score": 0.5984463691711426
+      }
+    ],
+    "generated_answer": "The most important skill for personal growth is social skills, such as getting along with people, cooperating, and knowing how to work with others."
+  }
+]
