@@ -3,58 +3,83 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 
-# Load the same embedding model used previously
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+# Define model configurations
+models = {
+    "minilm": {
+        "model": SentenceTransformer("all-MiniLM-L6-v2"),
+        "json_path": "outputs/task2_embedding_minilm_window_75.json",
+        "embedding_key": "embedding_minilm",
+        "embedding_dim": 384
+    },
+    "distilbert": {
+        "model": SentenceTransformer("distilbert-base-nli-stsb-mean-tokens"),
+        "json_path": "outputs/task2_embedding_distilbert_window_75.json",
+        "embedding_key": "embedding_distilbert",
+        "embedding_dim": 768
+    }
+}
 
-# Step 1: Load JSON and extract embeddings + metadata
-with open("outputs/task2_embeddings_minilm.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+# Define queries to test
+queries = [
+    "Why people feel lonely?",
+    "How to improve social skills?",
+    "What makes someone a good communicator?"
+]
 
-# Extract embeddings and metadata
-embedding_dim = 384  # MiniLM
-embedding_matrix = []
-metadata = []
+# Initialize final results dictionary
+final_results = {}
 
-for item in data:
-    embedding_matrix.append(item["task2_embedding_minilm"])
-    metadata.append({
-        "chunk_index": item.get("chunk_index", None),
-        "text": item["text"]
-    })
+# Process each model
+for model_name, config in models.items():
+    print(f"Processing model: {model_name}")
+    # Load model and data
+    embedding_model = config["model"]
+    with open(config["json_path"], "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-embedding_matrix = np.array(embedding_matrix).astype("float32")
-
-# Step 2: Normalize embeddings
-faiss.normalize_L2(embedding_matrix)
-
-# Step 3: Create FAISS index
-index = faiss.IndexFlatIP(embedding_dim)  # IP = Inner Product (for cosine sim with norm)
-index.add(embedding_matrix)
-
-# Step 4: Query Function
-def retrieve_chunks(query, top_k=3):
-    # Embed and normalize query
-    query_vec = embedding_model.encode([query], convert_to_numpy=True).astype("float32")
-    faiss.normalize_L2(query_vec)
-
-    # Perform similarity search
-    scores, indices = index.search(query_vec, top_k)
-
-    # Step 5: Map results
-    results = []
-    for score, idx in zip(scores[0], indices[0]):
-        results.append({
-            "chunk_id": metadata[idx]["chunk_id"],
-            "text": metadata[idx]["text"],
-            "score": float(score)
+    # Prepare embeddings and metadata
+    embedding_matrix = []
+    metadata = []
+    for item in data:
+        embedding_matrix.append(item[config["embedding_key"]])
+        metadata.append({
+            "chunk_index": item.get("chunk_index", None),
+            "text": item["text"]
         })
 
-    return results
+    embedding_matrix = np.array(embedding_matrix).astype("float32")
+    faiss.normalize_L2(embedding_matrix)
 
-# Example usage
-if __name__ == "__main__":
-    query = "What are the most important in social skills?"
-    results = retrieve_chunks(query)
-    for res in results:
-        print(f"Chunk ID: {res['chunk_id']}, Score: {res['score']:.4f}")
-        print(f"Text: {res['text']}\n")
+    # Create FAISS index
+    index = faiss.IndexFlatIP(config["embedding_dim"])
+    index.add(embedding_matrix)
+
+    # Store results for this model
+    model_results = {}
+
+    # Process each query
+    for query in queries:
+        query_vec = embedding_model.encode([query], convert_to_numpy=True).astype("float32")
+        faiss.normalize_L2(query_vec)
+        top_k = 3
+        scores, indices = index.search(query_vec, top_k)
+
+        # Map results
+        query_results = []
+        for score, idx in zip(scores[0], indices[0]):
+            query_results.append({
+                "chunk_index": metadata[idx]["chunk_index"],
+                "text": metadata[idx]["text"],
+                "score": float(score)
+            })
+
+        model_results[query] = query_results
+
+    final_results[model_name] = model_results
+
+# Save results to JSON
+output_path = "outputs/task2_compare_models.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(final_results, f, indent=2, ensure_ascii=False)
+
+print(f"\n✅ Results saved to {output_path}")

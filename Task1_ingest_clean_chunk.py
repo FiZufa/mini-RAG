@@ -25,11 +25,7 @@ def clean_text(text):
     cleaned_words = [word for word in words if word not in stop_words]
     return cleaned_words
 
-def chunk_tokens(tokens, window_size=20):
-    # Split cleaned words into fixed-length chunks
-    return [' '.join(tokens[i:i + window_size]) for i in range(0, len(tokens), window_size)]
-
-def chunk_with_overlap(tokens, window_size=100, overlap=50):
+def chunk_with_overlap(tokens, window_size=150, overlap=50):
     chunks = []
     for i in range(0, len(tokens), window_size - overlap):
         chunk = tokens[i:i + window_size]
@@ -38,7 +34,7 @@ def chunk_with_overlap(tokens, window_size=100, overlap=50):
     return chunks
 
 
-def process_documents(folder_path, window_size=100, overlap=50):
+def process_documents(folder_path, window_size=75, overlap=50):
     cleaned_documents = {}
 
     for filename in os.listdir(folder_path):
@@ -65,7 +61,7 @@ for doc, sentences in cleaned_data.items():
         print(" -", s)
 
 # Save to file
-with open("cleaned_sentences.json", "w", encoding="utf-8") as out_file:
+with open("outputs/task1_cleaned_window_75.json", "w", encoding="utf-8") as out_file:
     json.dump(cleaned_data, out_file, indent=2, ensure_ascii=False)
 
-print("✅ Cleaned data saved to cleaned_sentences.json")
+print("✅ Cleaned data saved to outputs/task1_cleaned_window_75.json")

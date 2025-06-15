@@ -1,0 +1,108 @@
+{
+  "minilm": {
+    "Why people feel lonely?": [
+      {
+        "chunk_index": 2,
+        "text": "alone one thing state loneliness feels like slightly different proposition well difference feel unhappy youre youre connecting people social animal right mh feel like people dont like dont respect cant interact level thats meaningful whereas feeling alone wow dont around ugly idiotic people read good book dont interact people whose ideas dont like weird want wow relief im happy alone im like time would terri terrible sometimes feel way thats difference thats good thing remember",
+        "score": 0.6176499128341675
+      },
+      {
+        "chunk_index": 12,
+        "text": "alone sometimes actually finding oddly enough kind pleasurable annoying noises annoying people narcissism crap deal yeah like alone sometimes like sitting bathtub reading book like watching movie etc find pleasure alone loneliness loses lot staining thing force develop social muscle",
+        "score": 0.6011254787445068
+      },
+      {
+        "chunk_index": 13,
+        "text": "watching movie etc find pleasure alone loneliness loses lot staining thing force develop social muscle",
+        "score": 0.5889459848403931
+      }
+    ],
+    "How to improve social skills?": [
+      {
+        "chunk_index": 0,
+        "text": "main thing developing skill though simple theres one step immediately improve ability level desire improve social skills first realize importance social skills 95 life involves interactions people tremendous impact emotions wellbeing health right thing dont think world social interacting people skill unfortunately think even bring question youre probably taking seriously think im naturally something dont practice dont learn anything go world interact best like skill like learning piano playing chess shooting free throws something like",
+        "score": 0.6636776924133301
+      },
+      {
+        "chunk_index": 7,
+        "text": "spending time people got get phone got get office got get virtuality around people interact thats way become social find know alone lot found difficult force force go clubs go bars hang people developing social skills incredibly important thing right another skill thats extremely important probably important develop love learning know personally theres something dont know theres something im good take effort like learn get better im going make say specifics could sports could playing",
+        "score": 0.572739839553833
+      },
+      {
+        "chunk_index": 4,
+        "text": "skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able supply youre able enter spirit dont offend unnecessarily know work right know properly criticize thats necessary dont understand social skill dont develop could greatest whatever could could even greatest athlete world youre going offending teammates offending people work knowledge skills going completely neutralized bad dealing people look social skill means",
+        "score": 0.5458396673202515
+      }
+    ],
+    "What makes someone a good communicator?": [
+      {
+        "chunk_index": 15,
+        "text": "change find wanting interactions meet somebody cafe wont phone wont wasting time like wont thinking problems going want know person story like want know childhood like want know want know feels like become person interested others talks way goes thought like people charmed love theyll powerful seductive impact b teach incredible things things people see develop muscle skill youll able practice time tremendous social success selfabsorption great impediment level social skills could talk face turns",
+        "score": 0.5239512920379639
+      },
+      {
+        "chunk_index": 17,
+        "text": "incredible things things people see develop muscle skill youll able practice time tremendous social success selfabsorption great impediment level social skills could talk face turns blue importance selfabsorbed key find people interesting however unlock secret higher level social skill",
+        "score": 0.5221911668777466
+      },
+      {
+        "chunk_index": 16,
+        "text": "like want know want know feels like become person interested others talks way goes thought like people charmed love theyll powerful seductive impact b teach incredible things things people see develop muscle skill youll able practice time tremendous social success selfabsorption great impediment level social skills could talk face turns blue importance selfabsorbed key find people interesting however unlock secret higher level social skill",
+        "score": 0.5175812244415283
+      }
+    ]
+  },
+  "distilbert": {
+    "Why people feel lonely?": [
+      {
+        "chunk_index": 2,
+        "text": "alone one thing state loneliness feels like slightly different proposition well difference feel unhappy youre youre connecting people social animal right mh feel like people dont like dont respect cant interact level thats meaningful whereas feeling alone wow dont around ugly idiotic people read good book dont interact people whose ideas dont like weird want wow relief im happy alone im like time would terri terrible sometimes feel way thats difference thats good thing remember",
+        "score": 0.5424463748931885
+      },
+      {
+        "chunk_index": 0,
+        "text": "isolation bad youre social animal youre meant around people cant alone cant ever figure makes different makes unique able play sides music game remember law think law 18 im look isolation yeah build fortresses protect isolation dangerous yeah solude defense cuts valuable information allies opportunities theres difference isnt lonely alone alone one thing state loneliness feels like slightly different proposition well difference feel unhappy youre youre connecting people social animal right mh feel like people",
+        "score": 0.5039486885070801
+      },
+      {
+        "chunk_index": 6,
+        "text": "like share somebody else ways kind alleviate thing understand think youre person like everybody goes feeling living culture loneliness like epidemic know books written know people bowling whole book written know culture social used much virtual youre alone youre alone lonely human people experiencing aware overcome become social put world virtual loneliness alone momentum know ive experienced cuz writer youre alone believe im alone lot youre alone lot get afraid get timid encountering people becomes",
+        "score": 0.4849469065666199
+      }
+    ],
+    "How to improve social skills?": [
+      {
+        "chunk_index": 4,
+        "text": "skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able supply youre able enter spirit dont offend unnecessarily know work right know properly criticize thats necessary dont understand social skill dont develop could greatest whatever could could even greatest athlete world youre going offending teammates offending people work knowledge skills going completely neutralized bad dealing people look social skill means",
+        "score": 0.45745331048965454
+      },
+      {
+        "chunk_index": 7,
+        "text": "spending time people got get phone got get office got get virtuality around people interact thats way become social find know alone lot found difficult force force go clubs go bars hang people developing social skills incredibly important thing right another skill thats extremely important probably important develop love learning know personally theres something dont know theres something im good take effort like learn get better im going make say specifics could sports could playing",
+        "score": 0.4012121558189392
+      },
+      {
+        "chunk_index": 18,
+        "text": "blue importance selfabsorbed key find people interesting however unlock secret higher level social skill",
+        "score": 0.3950485587120056
+      }
+    ],
+    "What makes someone a good communicator?": [
+      {
+        "chunk_index": 4,
+        "text": "skill develop social knowing work people knowing sensitive energy skill youre able pay attention people see individual see particular needs theyre missing life youre able supply youre able enter spirit dont offend unnecessarily know work right know properly criticize thats necessary dont understand social skill dont develop could greatest whatever could could even greatest athlete world youre going offending teammates offending people work knowledge skills going completely neutralized bad dealing people look social skill means",
+        "score": 0.3735511302947998
+      },
+      {
+        "chunk_index": 7,
+        "text": "spending time people got get phone got get office got get virtuality around people interact thats way become social find know alone lot found difficult force force go clubs go bars hang people developing social skills incredibly important thing right another skill thats extremely important probably important develop love learning know personally theres something dont know theres something im good take effort like learn get better im going make say specifics could sports could playing",
+        "score": 0.3659689426422119
+      },
+      {
+        "chunk_index": 4,
+        "text": "people something developed different jobs wasnt necessarily best uh person figuring game observant people nature flaws become astute observer people around game much easier manage right know person insecure offend say right wrong thing person whos strong secure want want mentor know want able take criticism people words less insecure kind outer motivated paying attention people around sounds like sort half battle sort naming people saying like h happened robert thing tells cares hes perceived",
+        "score": 0.3385559618473053
+      }
+    ]
+  }
+}
